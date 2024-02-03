@@ -1,0 +1,114 @@
+*{
+margin: 0;
+border: 0;
+}
+
+
+aside{
+height: 100%;
+width: 40%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+.foto{
+height: 45vh;
+width: 40vw;
+display: flex;
+justify-content: start;
+}
+body{
+background-image: linear-gradient(90deg, #99c5ee 12%, #ffffff 11%);
+height: 100vh ;
+width: 100vw;
+}
+.habilidades{
+margin-left: 20%;
+margin-top: 20%;
+}
+.texto{
+    margin-left: 17%;
+
+}
+main{
+height: 100vh;
+width: 45vw;
+margin-left: 50%;  
+margin-top: -40%;
+}
+h1{
+    display: flex;
+    justify-content: end;
+    position:absolute;
+    top: 10%;
+    left: 50%;
+    
+}
+
+
+.wtp{
+    position: relative;
+    top: 20%;
+    left:0;
+    height: 6%;
+    width: 6%;
+    border-radius: 50%;
+
+}
+.tell{
+    position: relative;
+    top: 15%;
+    left:10%;
+margin-top: -4%;
+margin-bottom: 6%;
+font-size: 120%;
+
+}
+.gmagen{
+    position: relative;
+    top: 30%;
+    left:0;
+    height: 6%;
+    width: 6%;
+    border-radius: 50%;
+
+
+}
+
+.email{
+    position: relative;
+    top: 25%;
+    left:10%;
+margin-top: -4%;
+font-size: 120%;
+}
+
+
+.bocacion{
+margin-top: 5%;
+margin-bottom: 5%;
+
+}
+p{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.experiencia{
+border-radius: 20px;
+background-color: #99c5ee;
+padding: 5%;
+border:solid 5% #99c5ee;
+display: flex;
+justify-content: center;
+font-size: 150%;
+font-weight: 100px;
+letter-spacing: 3px;
+word-spacing: 5px;
+margin-top: 20%;
+
+}
+.trabajos{
+margin-top: 5%;
+margin-bottom: 5%;
+}
